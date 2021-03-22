@@ -1,4 +1,4 @@
-#Mon Mar 22 20:22:45 ICT 2021
+#Mon Mar 22 20:28:41 ICT 2021
 base.0=C\:\\Users\\Rachmad Sukri\\Documents\\kuliah\\android-kotlin-fundamentals-starter-apps-master\\android-kotlin-fundamentals-starter-apps-master\\DessertClicker-Starter\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
