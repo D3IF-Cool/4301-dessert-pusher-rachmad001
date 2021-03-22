@@ -82,6 +82,7 @@ class MainActivity : AppCompatActivity() {
         if (savedInstanceState != null) {
             revenue = savedInstanceState.getInt(KEY_REVENUE, 0)
             dessertsSold = savedInstanceState.getInt(KEY_DESSERT_SOLD, 0)
+            dessertTimer.secondsCount = savedInstanceState.getInt("time", 0)
             showCurrentDessert()
         }
         // Set the TextViews to the right values
@@ -121,6 +122,7 @@ class MainActivity : AppCompatActivity() {
         super.onSaveInstanceState(outState)
         outState.putInt(KEY_REVENUE, revenue)
         outState.putInt(KEY_DESSERT_SOLD, dessertsSold)
+        outState.putInt("time", dessertTimer.secondsCount)
     }
     /**
      * Updates the score when the dessert is clicked. Possibly shows a new dessert.
